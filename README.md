@@ -142,7 +142,7 @@ We used the following 2 Python scripts to derive our augmented dataset.<br>
 
 As shown below, some original masks contain inappropriate annotation at right side edge regions. 
 Therefore, we first generated 462x462
-pixels left-side cropped images and masks to remove the right side edge part from the original one
+pixels left-side cropped images and masks to exclude the right side edge part from the original one
 , and resized them to 512x512 pixels, and finally augmented the resized one by the Generator tool
 ,which was enabled deformation and distortion augmentation flags, to geneate our dataset.<br><br>
 <img src="./projects/TensorFlowFlexUNet/Netherland-F3/asset/nogood_images.png" width="880" height="auto"><br>
