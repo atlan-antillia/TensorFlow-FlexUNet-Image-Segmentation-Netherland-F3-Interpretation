@@ -144,7 +144,7 @@ As shown below, some original masks contain inappropriate annotation at right si
 Therefore, we first generated 462x462
 pixels left-side cropped images and masks to exclude the right side edge part from the original one
 , and resized them to 512x512 pixels, and finally augmented the resized one by the Generator tool
-,which was enabled deformation and distortion augmentation flags, to geneate our dataset.<br><br>
+,which was enabled deformation and distortion augmentation flags, to generate our dataset.<br><br>
 <img src="./projects/TensorFlowFlexUNet/Netherland-F3/asset/nogood_images.png" width="880" height="auto"><br>
 <img src="./projects/TensorFlowFlexUNet/Netherland-F3/asset/nogood_masks.png"  width="880" height="auto"><br>
 <br>
@@ -350,7 +350,7 @@ python ../../../src/TensorFlowFlexUNetInferencer.py ./train_eval_infer.config
 <img src="./projects/TensorFlowFlexUNet/Netherland-F3/asset/mini_test_output.png" width="1024" height="auto"><br>
 <br>
 <hr>
-<b>Enlarged Netherland-F3 Images of 701x255 pixels</b><br>
+<b>Enlarged Netherland-F3 Images of 512x512 pixels</b><br>
 <b><a href="#color_class_mapping_table">Netherland-F3 color-class-mapping-table</a>
 </b>
 <br><br>
