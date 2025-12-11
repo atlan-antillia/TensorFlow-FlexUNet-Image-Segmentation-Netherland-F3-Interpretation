@@ -117,7 +117,7 @@ Creative Commons Attribution 4.0 International
 <b>Netherland-F3 Statistics</b><br>
 <img src ="./projects/TensorFlowFlexUNet/Netherland-F3/Netherland-F3_Statistics.png" width="512" height="auto"><br>
 <br>
-As shown above, the number of images of train and valid datasets is not large  to use for a training set of our segmentation model.
+As shown above, the number of images of train and valid datasets is large enough  to use for a training set of our segmentation model.
 <br>
 <br>
 <h4>2.2 Netherland-F3 Dataset Derivation</h4>
@@ -144,8 +144,7 @@ As shown below, some original masks contain inappropriate annotation at right si
 Therefore, we first generated 462x462
 pixels left-side cropped images and masks to remove the right side edge part from the original one
 , and resized them to 512x512 pixels, and finally augmented the resized one by the Generator tool
-,which was enabled deformation and distortion augmentation flags,  
-to geneate our dataset.<br><br>
+,which was enabled deformation and distortion augmentation flags, to geneate our dataset.<br><br>
 <img src="./projects/TensorFlowFlexUNet/Netherland-F3/asset/nogood_images.png" width="880" height="auto"><br>
 <img src="./projects/TensorFlowFlexUNet/Netherland-F3/asset/nogood_masks.png"  width="880" height="auto"><br>
 <br>
@@ -172,7 +171,6 @@ Netherlands Dataset: A New Public Dataset for Machine Learning in Seismic Interp
 </table>
 <br>
 <h4>2.3 Train Image and Mask Samples</h4>
-
 <b>Train_images_sample</b><br>
 <img src="./projects/TensorFlowFlexUNet/Netherland-F3/asset/train_images_sample.png" width="1024" height="auto">
 <br>
